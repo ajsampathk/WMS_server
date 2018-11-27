@@ -15,3 +15,6 @@ router.post('/update',(req,res)=>{
   res.send(JSON.stringify({Test:true,Sucess:true,route:"Levels"}))
 
 })
+
+
+module.exports = router
