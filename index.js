@@ -9,7 +9,7 @@ app.get('/',(req,res) => {
 })
 
 app.use(bodyParser.urlencoded({ extended: false}))
-
+app.use(bodyParser.json())
 app.listen(8000,()=>{console.log("Server started")})
 
 app.use('/level',levels)
