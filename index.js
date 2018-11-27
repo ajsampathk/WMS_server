@@ -4,7 +4,7 @@ const app = express()
 
 var levels = require('./Levels.js')
 var ths = require('./Threshold.js')
-app.get('/status',(req,res) => {
+app.get('/',(req,res) => {
   res.send('Online')
 })
 
